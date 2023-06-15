@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+.manu01{
+    height: 38px;
+    background-color: black;
+    color:#fff;
+    width: 50px;
+    font-size: 18px;
+    padding-left: 13px;
+    padding-top: 11px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+.input01{
+    background: rgba(208, 208, 210, 0.25) !important;
+    font-family: 'Poppins', sans-serif;
+}
+.btn01{
+    background-color: #000 !important;
+    color: #fff !important;
+}
+.input01::placeholder{
+    padding-left: 15px !important;
+    font-family: 'Poppins', sans-serif;
+}
+.button01{
+    width:140px;
+    height:48px;
+    background-color: #0C132C;
+    border-radius: 30px;
+    color:#fff;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.button01:hover{
+    background-color: #F46B5B;
+    font-family: 'Poppins', sans-serif;
+}
+.logo-heading{
+    color:#F46B5B;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.span01{
+    color:#333A53;
+    font-family: 'Poppins', sans-serif;
+}
+#home, #about, #games, #profile{
+    color: #383838;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+#home:hover, #about:hover, #games:hover, #profile:hover{
+    color: #F46B5B;
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+}
+.para01{
+    color:#A7A7A7;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.game01{
+    color:#010A29;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+.heading01{
+    color:#383838;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.description{
+    color:#383838;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.image01{
+    width:100%;
+    height: 514px;
+    border-radius: 32px;
+}
+.button03{
+    background-color: #C4C4C4 !important;
+    color: #000 !important;
+    font-size: 22px !important;
+    font-weight: 500 !important;
+    border: 0px solid !important;
+    font-family: 'Archivo', sans-serif;
+}
+.para03{
+    font-family: 'Archivo', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+.dummy{
+    color:#fff;
+}
+@media screen and (max-width:767px){
+    .button04{
+        background-color: #C4C4C4;
+        height: 60px;
+        border-radius: 16px;
+        width: 150px;
+        font-size: 25px;
+        font-weight: 500;
+        border: 0px;
+        font-family: 'Archivo', sans-serif;
+        
+    }
+}
+@media screen and (min-width:768px){
+    .button04{
+        background-color: #C4C4C4;
+        height: 60px;
+        border-radius: 16px;
+        width: 150px;
+        font-size: 25px;
+        font-weight: 500;
+        border: 0px;
+        margin-top: 50px;
+        font-family: 'Archivo', sans-serif;
+    }
+}
+.button04:hover{
+    background-color: aqua;
+    font-family: 'Archivo', sans-serif;
+}
+.button05{
+    background-color: #C4C4C4;
+    border:0px;
+    border-radius:32px;
+    font-size: 25px;
+    font-weight: 500;
+    width: 250px;
+    height:60px;
+}
+.heading02{
+    font-family: 'Archivo', sans-serif;
+    font-size: 38px;
+    color: #010101;
+    font-weight: 700;
+
+}
+.video01{
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+}
+.bg-contaner02{
+    background-color: #000000;
+    background-size: cover;
+    border-bottom: 3px solid #ffffff;
+}
+.heading03{
+    color:#ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Archivo', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.heading04{
+    color:#ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Archivo', sans-serif;
+    letter-spacing: 1px;
+    text-transform:capitalize
+}
+.para02 {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top:38px;
+}
+.card{
+    border-radius: 5px !important;
+    border: 2px solid #DADADA !important;
+}
+.card:hover{
+    background-color: #73e7f0;
+}
+.card-title{
+    color: #6E6E6E;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.card-text{
+    color: #6E6E6E;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.button06 {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #010A29;
+    border: 0px;
+    font-size: 14px;
+    color:#fff;
+    text-transform: uppercase;
+}
+.button06:hover{
+    background-color: #e6d710;
+}
+.bg-container03{
+    background-color: #010A29;
+    background-size: cover;
+    border-bottom: 3px solid #ffffff;
+}
+.heading05{
+    color:#FAFAFA;
+    font-weight: 700;
+    font-size: 42px;
+}
+.para04{
+    color:#FAFAFA;
+    font-size: 16px;
+    font-weight: 400;
+}
+.input02{
+    background-color: #FAFAFA !important;
+    height:64px !important;
+    width: 50% !important;
+}
+.input02::placeholder{
+    color: #A7A7A7 !important;
+    font-size: 16px !important;
+}
+.button07{
+    color:#fff !important;
+    padding:20px !important;
+    background-color: #383838 !important;
+}
+.bg-container04{
+    background-color: #292b2b;
+    background-size: cover;
+    border-bottom: 3px solid #ffffff;
+}
+.details01{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.ma1{
+    color:#6ae4de;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.bg-container05 {
+    background-color: #000;
+    background-size: cover;
+}
+.information {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+.para003 {
+    color: #fff;
+    opacity: 0.8;
+    font-size: 16px;
+}
+.icon002{
+    color: #fff;
+    font-size: 20px;
+}
+.icon003 {
+    color: #fff;
+    font-size: 16px;
+}
+.home{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 7px;
+}
+.home01{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 14px;
+    line-height: 23px;
+}
+.home02{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 23px;
+}
+.hor{
+    height: 0.5px;
+    background-color: #fff;
+}
+.copyright {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+
+  .coin-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+  }
+  
+  .coin-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  .flipped {
+    transform: rotateY(180deg);
+  }
+  
+  .head-button{
+    background-image: linear-gradient(to left,#5cf2e3, #38f2d3, #9ef0b0);
+    width:120px;
+    height:50px;
+    border-radius:20px;
+    border:0px;
+    color:#fff;
+    font-size: 23px;
+    font-weight: 700;
+  }
+  .tail-button{
+    background-image:linear-gradient(to left, #f5cc5d,#d18b11,#f5750c);
+    width:120px;
+    height:50px;
+    border-radius:20px;
+    border:0px;
+    color:#fff;
+    font-size: 23px;
+    font-weight: 700;
+  }
+  
+.d1{
+    width: 25% !important;
+    background-color: #C4C4C4 !important;
+    color: #000 !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
